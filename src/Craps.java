@@ -2,6 +2,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Craps {
+    
+    public static void main(String[] args) {
+        jogarCraps();
+    }
 
     // Método para lançar os dados
     public static int lancarDados() {
@@ -45,7 +49,4 @@ public class Craps {
         scanner.close();
     }
 
-    public static void main(String[] args) {
-        jogarCraps();
-    }
 }
